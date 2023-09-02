@@ -174,10 +174,7 @@ class Spiral
             }
             
             level = !level;
-            for(Integer n : list){
-                // System.out.println(n);
-                result.add(n);
-            }
+            result.addAll(list);
         }
         
         return result;
